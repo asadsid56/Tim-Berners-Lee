@@ -1,7 +1,9 @@
 body {
     font-family: 'Open Sans';
     background-color: gray;
+    color: gray;
 }
+
 /* HEADER */
 header {
     border-radius: 15px;
@@ -11,6 +13,7 @@ header {
     padding: 5%;
     margin-bottom: 5%;
 }
+
 div .tim {
     display: block;
     margin: auto;
@@ -33,7 +36,7 @@ div .biography {
 }
 
 div .see-yourself {
-    padding: 3%; 
+    padding: 3%;
     background-color: red;
     color: white;
     display: block;
@@ -42,6 +45,7 @@ div .see-yourself {
     font-weight: 900;
     border-radius: 10px;
 }
+
 /* END OF HEADER */
 /* START OF SOCIAL MEDIA */
 .social-media {
@@ -50,6 +54,89 @@ div .see-yourself {
     margin-right: 25%;
     margin-left: 25%;
     padding: 5%;
+    margin-bottom: 5%;
+}
+.icons {
+display: flex;
+justify-content: space-around;
+}
+.apps {
+display: flex;
+justify-content: space-around;
+font-size: larger;
+margin-right: 8px;
+padding: 10px;
+}
+/* Style all font awesome icons */
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
 }
 
+/* Add a hover effect if you want */
+.fa:hover {
+    opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+    border-radius: 20%;
+}
+
+/* Twitter */
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+    border-radius: 20%;
+}
+
+/* Linkedin */
+.fa-linkedin {
+    background: #55ACEE;
+    color: white;
+    border-radius: 20%;
+}
 /* END OF SOCIAL MEDIA */
+/* START OF ARTICLE */
+article {
+    border-radius: 15px;
+    background-color: white;
+    margin-right: 25%;
+    margin-left: 25%;
+    padding: 5%;
+}
+.content {
+    padding-bottom: 5%;
+}
+h3 {
+    font-size: 25px;
+    text-align: center;
+    padding-bottom: 10%;
+}
+h4 {
+    margin-top: 0%;
+    text-align: center;
+}
+
+.movie img {
+height: 200px;
+width: auto;
+}
+
+.movie {
+display: inline-flex;
+}
+
+div .intertitre {
+    padding-left: 40px;
+    font-size: 20px;
+    text-align: justify ;
+}
+/* END OF ARTICLE */
