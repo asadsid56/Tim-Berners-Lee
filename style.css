@@ -1,0 +1,55 @@
+body {
+    font-family: 'Open Sans';
+    background-color: gray;
+}
+/* HEADER */
+header {
+    border-radius: 15px;
+    background-color: white;
+    margin-right: 25%;
+    margin-left: 25%;
+    padding: 5%;
+    margin-bottom: 5%;
+}
+div .tim {
+    display: block;
+    margin: auto;
+    border-radius: 50%;
+    border: 6px solid gray;
+}
+
+h1 {
+    text-align: center;
+    color: red;
+}
+
+h2 {
+    text-align: center;
+}
+
+div .biography {
+    font-size: 20px;
+    text-align: justify;
+}
+
+div .see-yourself {
+    padding: 3%; 
+    background-color: red;
+    color: white;
+    display: block;
+    margin: auto;
+    font-size: 20px;
+    font-weight: 900;
+    border-radius: 10px;
+}
+/* END OF HEADER */
+/* START OF SOCIAL MEDIA */
+.social-media {
+    border-radius: 15px;
+    background-color: white;
+    margin-right: 25%;
+    margin-left: 25%;
+    padding: 5%;
+}
+
+/* END OF SOCIAL MEDIA */
